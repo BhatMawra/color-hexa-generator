@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', 'Montserrat', sans-serif;
+  font-family: "Roboto", "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   line-height: 2.2;
   font-size: 0.875rem;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 ul {
@@ -29,7 +29,7 @@ nav {
 }
 
 .menu a {
-  color: #F3F0CA;
+  color: #f3f0ca;
   font-weight: bolder;
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
@@ -39,7 +39,7 @@ nav {
 }
 
 .menu a:hover {
-  color: #3876BF;
+  color: #3876bf;
   font-weight: bold;
   padding-left: 1.5rem;
 }
@@ -55,18 +55,18 @@ nav {
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #1C1678;
+  color: #1c1678;
 }
 
 .nav-h1 {
   font-size: 1.5rem;
   margin: 0;
-  color: #F3F0CA;
+  color: #f3f0ca;
 }
 
 i {
   font-size: 3rem;
-  color: #F3F0CA;
+  color: #f3f0ca;
 }
 
 div {
@@ -94,10 +94,10 @@ div {
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  box-shadow: 0 5px 15px #35374B;
+  box-shadow: 0 5px 15px #35374b;
 }
 
-.counter-div>* {
+.counter-div > * {
   margin-bottom: 2rem;
 }
 
@@ -108,7 +108,7 @@ div {
 }
 
 hr {
-  border-color: #8E92BC;
+  border-color: #8e92bc;
 }
 
 .buttons button {
@@ -147,7 +147,7 @@ button.add {
 @media (min-width: 800px) {
   .nav-main {
     max-width: 95%;
-    margin: 0 .2rem 0 .2rem;
+    margin: 0 0.2rem 0 0.2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
